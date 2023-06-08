@@ -122,7 +122,8 @@ int main()
 		printf("Escolha a opção desejada no menu:\n\n");
 		printf("\t1 - Registrar aluno\n"); // Registrar nome
 		printf("\t2 - Consultar aluno \n"); // Consultar nome
-		printf("\t3 - Desligamento de aluno \n\n"); // Deletar nome
+		printf("\t3 - Desligamento de aluno \n"); // Deletar nome
+		printf("\t4 - Sair do sistema \n\n");
 		printf("*Esse Softare é de livre uso!* \n\n");
 		printf("Opção:"); //Fim do menu
 	
@@ -140,6 +141,10 @@ int main()
 			break;
 			case 3:
 				desligamento();
+			break;
+			case 4:
+				printf("Obrigado por utilizar o sistema!\n");
+				return 0;
 			break;
 			default:
 				printf("Esta opção não esta disponivel!\n");
